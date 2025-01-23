@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Test Preparation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            color: #ffdd40;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #004aad, #0078d7);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeIn 2s;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            color: #004aad;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #004aad;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #003280;
+        }
+
+        footer {
+            background-color: #00274d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ffdd40;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">EntryTestPrep</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tests.html">Tests</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="mocks.html">Mock Tests</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to Entry Test Prep</h1>
+        <p>Your one-stop solution to ace all entry tests in Pakistan!</p>
+        <a href="tests.html" class="btn">Get Started</a>
+    </div>
+
+    <div class="section" id="tests">
+        <h2>Tests We Cover</h2>
+        <p>Engineering, Medical, Business, Law, General Knowledge, and more!</p>
+        <a href="tests.html" class="btn">Explore Tests</a>
+    </div>
+
+    <div class="section" id="resources">
+        <h2>Study Resources</h2>
+        <p>Notes, video lectures, and recommended books for all subjects.</p>
+        <a href="resources.html" class="btn">Browse Resources</a>
+    </div>
+
+    <div class="section" id="mock-tests">
+        <h2>Mock Tests</h2>
+        <p>Practice with time-limited tests and detailed performance analytics.</p>
+        <a href="mocks.html" class="btn">Start Practicing</a>
+    </div>
+
+    <div class="section" id="blog">
+        <h2>Blog</h2>
+        <p>Stay updated with test preparation tips, announcements, and success stories.</p>
+        <a href="blog.html" class="btn">Read Our Blog</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EntryTestPrep. All rights reserved. | <a href="about.html">About Us</a></p>
+    </footer>
+</body>
+
+</html>
