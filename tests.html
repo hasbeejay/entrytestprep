@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests - Entry Test Prep</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            color: #ffdd40;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #004aad, #0078d7);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #004aad;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .tests-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+            justify-content: center;
+        }
+
+        .test-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .test-card h3 {
+            font-size: 1.5em;
+            color: #004aad;
+            margin-bottom: 10px;
+        }
+
+        .test-card p {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .test-card a {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 1em;
+            color: white;
+            background-color: #004aad;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .test-card a:hover {
+            background-color: #003280;
+        }
+
+        footer {
+            background-color: #00274d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ffdd40;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">EntryTestPrep</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tests.html">Tests</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="mocks.html">Mock Tests</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>All About Entry Tests</h1>
+        <p>Comprehensive details about patterns, criteria, merit calculation, and more.</p>
+    </div>
+
+    <div class="section">
+        <h2>Available Tests</h2>
+        <div class="tests-container">
+            <div class="test-card">
+                <h3>Engineering Entry Test</h3>
+                <p>Includes detailed patterns, subjects, and criteria for engineering universities.</p>
+                <a href="engineering.html">Learn More</a>
+            </div>
+            <div class="test-card">
+                <h3>Medical Entry Test</h3>
+                <p>All you need to know about MDCAT, including merit calculation and syllabus.</p>
+                <a href="medical.html">Learn More</a>
+            </div>
+            <div class="test-card">
+                <h3>Business Entry Test</h3>
+                <p>Details about the entry test patterns for business and management programs.</p>
+                <a href="business.html">Learn More</a>
+            </div>
+            <div class="test-card">
+                <h3>Law Entry Test</h3>
+                <p>Information on law entry tests, eligibility criteria, and patterns.</p>
+                <a href="law.html">Learn More</a>
+            </div>
+            <div class="test-card">
+                <h3>General Knowledge Tests</h3>
+                <p>Prepare for tests requiring general knowledge and analytical skills.</p>
+                <a href="gk.html">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EntryTestPrep. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+
+</html>

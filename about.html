@@ -54,6 +54,7 @@
             color: white;
             text-align: center;
             padding: 80px 20px;
+            animation: fadeIn 3s;
         }
 
         .about-hero h1 {
@@ -63,6 +64,16 @@
 
         .about-hero p {
             font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         .section {
@@ -177,7 +188,7 @@
         <p>With a user-friendly interface, high-quality resources, and a focus on student success, EntryTestPrep is your ultimate partner in achieving your academic goals.</p>
     </div>
     <footer>
-        <p>&copy; 2025 EntryTestPrep. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+        <p>&copy; 2025 EntryTestPrep. All rights reserved.</p>
     </footer>
 </body>
 
