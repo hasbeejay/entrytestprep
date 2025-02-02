@@ -44,7 +44,7 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 100px 20px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 
 .hero h1 {
@@ -102,7 +102,7 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 80px 20px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 
 .about-hero h1 {
