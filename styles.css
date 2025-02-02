@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffdd40;
+}
+
+.hero {
+    background: linear-gradient(to right, #004aad, #0078d7);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeIn 3s;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #004aad;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #003280;
+}
+.about-hero {
+    background: linear-gradient(to right, #004aad, #0078d7);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    animation: fadeIn 3s;
+}
+
+.about-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 2em;
+    color: #004aad;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.2em;
+    color: #004aad;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: #555;
+}
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog-card h3 {
+    font-size: 1.5em;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.blog-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #004aad;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.blog-card a:hover {
+    background-color: #003280;
+}
+.mock-tests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.mock-test-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mock-test-card h3 {
+    font-size: 1.5em;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.mock-test-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.mock-test-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #004aad;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.mock-test-card a:hover {
+    background-color: #003280;
+}
+.resources-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.resource-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resource-card h3 {
+    font-size: 1.5em;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.resource-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.resource-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #004aad;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.resource-card a:hover {
+    background-color: #003280;
+}
+.tests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.test-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.test-card h3 {
+    font-size: 1.5em;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.test-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.test-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #004aad;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.test-card a:hover {
+    background-color: #003280;
+}
+
+
+footer {
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffdd40;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
